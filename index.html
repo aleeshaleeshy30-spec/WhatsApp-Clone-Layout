@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- LEFT SIDEBAR -->
+        <div class="sidebar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <div class="user-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Me&background=00a884&color=fff" alt="Me">
+                </div>
+                <div class="header-icons">
+                    <i class="fas fa-circle-notch"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search or start new chat">
+                </div>
+            </div>
+
+            <!-- Chat List -->
+            <div class="chat-list">
+                <!-- Chat 1 - Active -->
+                <div class="chat-item active">
+                    <div class="chat-avatar">
+                        <img src="https://ui-avatars.com/api/?name=Ali&background=25d366&color=fff" alt="Ali">
+                    </div>
+                    <div class="chat-details">
+                        <div class="chat-top">
+                            <h4>Ali Ahmed</h4>
+                            <span class="chat-time">10:30 AM</span>
+                        </div>
+                        <div class="chat-bottom">
+                            <p class="chat-message">Bhai project submit ho gaya? ✅</p>
+                            <span class="unread-count">3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat 2 -->
+                <div class="chat-item">
+                    <div class="chat-avatar">
+                        <img src="https://ui-avatars.com/api/?name=Sara&background=e91e63&color=fff" alt="Sara">
+                    </div>
+                    <div class="chat-details">
+                        <div class="chat-top">
+                            <h4>Sara Khan</h4>
+                            <span class="chat-time">9:15 AM</span>
+                        </div>
+                        <div class="chat-bottom">
+                            <p class="chat-message"><i class="fas fa-check-double read"></i> Meeting kal 2PM hai</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat 3 -->
+                <div class="chat-item">
+                    <div class="chat-avatar">
+                        <img src="https://ui-avatars.com/api/?name=Group&background=607d8b&color=fff" alt="Group">
+                    </div>
+                    <div class="chat-details">
+                        <div class="chat-top">
+                            <h4>Web Dev Team 👥</h4>
+                            <span class="chat-time">Yesterday</span>
+                        </div>
+                        <div class="chat-bottom">
+                            <p class="chat-message">Hassan: Code push kar diya </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat 4 -->
+                <div class="chat-item">
+                    <div class="chat-avatar">
+                        <img src="https://ui-avatars.com/api/?name=Mom&background=ff5722&color=fff" alt="Mom">
+                    </div>
+                    <div class="chat-details">
+                        <div class="chat-top">
+                            <h4>Mom ❤️</h4>
+                            <span class="chat-time">Yesterday</span>
+                        </div>
+                        <div class="chat-bottom">
+                            <p class="chat-message"><i class="fas fa-check-double read"></i> Ghar kab aaoge?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat 5 -->
+                <div class="chat-item">
+                    <div class="chat-avatar">
+                        <img src="https://ui-avatars.com/api/?name=Usman&background=3f51b5&color=fff" alt="Usman">
+                    </div>
+                    <div class="chat-details">
+                        <div class="chat-top">
+                            <h4>Usman Tariq</h4>
+                            <span class="chat-time">Monday</span>
+                        </div>
+                        <div class="chat-bottom">
+                            <p class="chat-message">Bhai link bhej de GitHub ka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT CHAT AREA -->
+        <div class="chat-area">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-header-left">
+                    <div class="chat-avatar-small">
+                        <img src="https://ui-avatars.com/api/?name=Ali&background=25d366&color=fff" alt="Ali">
+                    </div>
+                    <div class="chat-header-info">
+                        <h4>Ali Ahmed</h4>
+                        <span class="status">online</span>
+                    </div>
+                </div>
+                <div class="chat-header-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-paperclip"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="messages-area">
+                <!-- Date Divider -->
+                <div class="date-divider">
+                    <span>Today</span>
+                </div>
+
+                <!-- Received Message -->
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Bhai project ka kya hua? Submit kiya?</p>
+                        <span class="message-time">10:25 AM</span>
+                    </div>
+                </div>
+
+                <!-- Sent Message -->
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>Haan bhai abhi submit kar raha hoon! </p>
+                        <span class="message-time">
+                            10:28 AM
+                            <i class="fas fa-check-double read"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Received Message -->
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Shabash! GitHub link bhej de please 🙏</p>
+                        <span class="message-time">10:29 AM</span>
+                    </div>
+                </div>
+
+                <!-- Sent Message -->
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>Yeh lo: https://github.com/me/project</p>
+                        <span class="message-time">
+                            10:30 AM
+                            <i class="fas fa-check-double read"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Received Message -->
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Perfect! Ab main bhi apna commit kar raha hoon ✅</p>
+                        <span class="message-time">10:31 AM</span>
+                    </div>
+                </div>
+
+                <!-- Image Message -->
+                <div class="message received">
+                    <div class="message-content">
+                        <div class="image-message">
+                            <img src="https://placehold.co/300x200/25d366/ffffff?text=Screenshot.png" alt="screenshot">
+                        </div>
+                        <p>Yeh dekh last commit ka result </p>
+                        <span class="message-time">10:32 AM</span>
+                    </div>
+                </div>
+
+                <!-- Sent Message with Typing -->
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>Bohat acha lag raha hai! 🔥</p>
+                        <span class="message-time">
+                            10:33 AM
+                            <i class="fas fa-check-double read"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Typing Indicator -->
+                <div class="message received typing">
+                    <div class="message-content">
+                        <div class="typing-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-icons">
+                    <i class="far fa-smile"></i>
+                    <i class="fas fa-paperclip"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Type a message">
+                </div>
+                <div class="send-icon">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
