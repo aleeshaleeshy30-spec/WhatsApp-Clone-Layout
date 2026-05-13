@@ -1,2 +1,6 @@
-# WhatsApp-Clone-Layout
-A static WhatsApp Web interface clone built with HTML &amp; CSS. Focuses on layout design, component structure, and responsive UI without JavaScript functionality.
+# WhatsApp clone
+
+A Pen created on CodePen.
+
+Original URL: [https://codepen.io/Aliee-Aliee/pen/emBdvyP](https://codepen.io/Aliee-Aliee/pen/emBdvyP).
+
